@@ -10,5 +10,5 @@ scipy==1.15.2
 statsmodels==0.14.4
 streamlit==1.44.1
 tensorflow==2.19.0
-Although it was new to work with ML models,This was Fun.
 Deployed {app.py} frontend application using Streamlit.
+Although it was new to work with ML models,This was Fun.
