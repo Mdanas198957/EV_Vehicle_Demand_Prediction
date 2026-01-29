@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import joblib
+import joblib as jb
 from datetime import datetime
 import matplotlib.pyplot as plt
 
@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 st.set_page_config(page_title="EV Forecast", layout="wide")
 
 # === Load model ===
-model = joblib.load('forecasting_ev_model.pkl')
+model = jb.load('forecasting_ev_model.pkl')
 
 # === Styling ===
 st.markdown("""
